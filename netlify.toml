@@ -5,5 +5,5 @@
   status = 200
 
 [context.custom]
-  command = "git clone https://github.com/opentargets/platform-app-customisations customisations && yarn build:customise"
+  command = "rimraf customisations && git clone https://github.com/opentargets/platform-app-customisations customisations && yarn build:customise"
   environment = { CUSTOMISATIONS_DIR = "customisations" }
