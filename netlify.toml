@@ -3,3 +3,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[context.custom]
+  command = "git clone https://github.com/opentargets/platform-app-customisations customisations && yarn build"
+  environment = { CUSTOMISATIONS_DIR = "customisations" }
