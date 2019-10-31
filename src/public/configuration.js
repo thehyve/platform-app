@@ -1,23 +1,7 @@
-export const targetSectionsDefaultOrder = [
-  'drugs',
-  'tractability',
-  'safety',
-  'chemicalProbes',
-  'bibliography',
-  'variation',
-  'expression',
-  'protein',
-  'homology',
-  'geneOntology',
-  'proteinInteractions',
-  'pathways',
-  'relatedTargets',
-  'mousePhenotypes',
-  'cancerHallmarks',
-  'cancerBiomarkers',
-];
+export const targetSectionsDefaultOrder = ['tractability', 'abc', 'drugs'];
 
 export const diseaseSectionsDefaultOrder = [
+  'otarProjects',
   'ontology',
   'drugs',
   'bibliography',

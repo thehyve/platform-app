@@ -4,7 +4,7 @@
 import * as bibliographyRaw from './sections/Bibliography';
 import * as cancerBiomarkersRaw from './sections/CancerBiomarkers';
 import * as cancerHallmarksRaw from './sections/CancerHallmarks';
-import * as chemicalProbesRaw from './sections/ChemicalProbes';
+// import * as chemicalProbesRaw from './sections/ChemicalProbes';
 import * as drugsRaw from './sections/KnownDrugs';
 import * as expressionRaw from './sections/Expression';
 import * as geneOntologyRaw from './sections/GeneOntology';
@@ -17,11 +17,13 @@ import * as relatedTargetsRaw from './sections/RelatedTargets';
 import * as safetyRaw from './sections/Safety';
 import * as tractabilityRaw from './sections/Tractability';
 import * as variationRaw from './sections/Variation';
+import * as abcRaw from './sections/ABC';
 
 export const bibliography = bibliographyRaw;
+export const abc = abcRaw;
 export const cancerBiomarkers = cancerBiomarkersRaw;
 export const cancerHallmarks = cancerHallmarksRaw;
-export const chemicalProbes = chemicalProbesRaw;
+// export const chemicalProbes = chemicalProbesRaw;
 export const drugs = drugsRaw;
 export const expression = expressionRaw;
 export const geneOntology = geneOntologyRaw;

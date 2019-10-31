@@ -1,15 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Page, NavBar, Footer } from 'ot-ui';
-
-import { externalLinks } from '../../constants';
-import Search from '../home/Search';
+import { Page, NavBar } from 'ot-ui';
+import CustomFooter from './CustomFooter';
 
 const BasePage = ({ children }) => (
-  <Page
-    header={<NavBar name="Platform" search={<Search />} />}
-    footer={<Footer externalLinks={externalLinks} />}
-  >
+  <Page header={<NavBar name="Platform" />} footer={<CustomFooter />}>
     <Helmet
       defaultTitle="Open Targets Platform"
       titleTemplate="%s | Open Targets Platform"
