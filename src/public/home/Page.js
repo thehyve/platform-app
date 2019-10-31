@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
 import Grid from '@material-ui/core/Grid';
 
-import { Link, HomeBox, NavBar, Footer } from 'ot-ui';
+import { Link, HomeBox, NavBar } from 'ot-ui';
+import CustomFooter from '../common/CustomFooter';
 
 import Splash from './Splash';
 import Search from './Search';
@@ -25,7 +26,7 @@ const HomePage = () => {
           </Grid>
         </HomeBox>
       </Grid>
-      <Footer externalLinks={externalLinks} />
+      <CustomFooter externalLinks={externalLinks} />
     </Fragment>
   );
 };
