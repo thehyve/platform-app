@@ -1,4 +1,9 @@
-export const targetSectionsDefaultOrder = ['tractability', 'abc', 'drugs'];
+export const targetSectionsDefaultOrder = [
+  'tractability',
+  'cancerBiomarkers',
+  'abc',
+  'drugs',
+];
 
 export const diseaseSectionsDefaultOrder = [
   'otarProjects',
