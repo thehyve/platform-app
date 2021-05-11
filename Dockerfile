@@ -7,6 +7,10 @@ RUN yarn
 COPY . /tmp/platform-app/
 ARG REACT_APP_REVISION=""
 RUN : "${REACT_APP_REVISION:?Missing --build-arg REACT_APP_REVISION=\$(git rev-parse --short HEAD)}"
+ARG REACT_APP_URL_API=""
+ARG REACT_APP_URL_API_BETA=""
+ARG REACT_APP_CONTACT_EMAIL_LABEL=""
+ARG REACT_APP_CONTACT_EMAIL_ADDRESS=""
 RUN yarn build
 FROM node:12
 RUN npm install -g serve
