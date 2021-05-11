@@ -16,7 +16,7 @@ export const config = {
     'https://api-beta-dot-open-targets-eu-dev.appspot.com/api/v4/graphql'
   ),
   urlApiBeta: getNonEmptyVarOrDefault(
-    process.env.REACT_APREACT_APP_URL_API_BETAP_URL_API,
+    process.env.REACT_APP_URL_API_BETA,
     'https://api-beta-dot-open-targets-eu-dev.appspot.com/api/v4/graphql'
   ),
   contactEmailLabel: getNonEmptyVarOrDefault(
